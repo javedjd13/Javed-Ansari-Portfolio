@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  background: #050414;
+}
+
+.bg-contact-btn{
+  background: #8245ec;
+}
