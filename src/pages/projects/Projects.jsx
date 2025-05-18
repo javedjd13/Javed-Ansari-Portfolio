@@ -19,9 +19,9 @@ const projects = [
     title: "Portfolio Website",
     description:
       "A responsive portfolio website built with React and Tailwind CSS.",
-    image:ProjectImgTwo,
-    github: "https://github.com/javedjd13/portfolio",
-    demo: "https://javedjd13.github.io/portfolio",
+    image: ProjectImgTwo,
+    github: "https://github.com/javedjd13/Javed-Ansari-Portfolio",
+    demo: "https://javed-ansari-portfolio.vercel.app/",
   },
   {
     title: "E-commerce Store",
@@ -84,7 +84,7 @@ const Projects = () => {
               <img
                 src={project.image}
                 alt={project.title}
-                className="w-full h-52 object-cover rounded-t-2xl border-b border-purple-600/50"
+                className="w-full h-full object-cover rounded-t-2xl border-b border-purple-600/50"
                 style={{ zIndex: 1 }}
                 loading="lazy"
               />
