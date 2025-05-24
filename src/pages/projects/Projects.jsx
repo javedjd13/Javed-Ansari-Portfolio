@@ -1,10 +1,9 @@
-import React from "react";
 import { motion } from "framer-motion";
 import Tilt from "react-parallax-tilt";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import ProjectImg from "../../assets/Images/Projcet-img.png"; // Adjust the path as necessary
 import ProjectImgOne from "../../assets/Images/ProjectImgOne.png"; // Adjust the path as necessary
-import ProjectImgTwo from "../../assets/Images/two.png"; // Adjust the path as necessary
+import ProjectImgTwo from "../../assets/Images/brokihero.png"; // Adjust the path as necessary
 
 const projects = [
   {
@@ -16,12 +15,12 @@ const projects = [
     demo: "https://ticket-wing-tailwind-css.vercel.app/",
   },
   {
-    title: "Portfolio Website",
+    title: "Real Estate  Website",
     description:
-      "A responsive portfolio website built with React and Tailwind CSS.",
+      "A responsive Real Estate website built with React and Tailwind CSS.",
     image: ProjectImgTwo,
-    github: "https://github.com/javedjd13/Javed-Ansari-Portfolio",
-    demo: "https://javed-ansari-portfolio.vercel.app/",
+    github: "https://github.com/javedjd13/Broki-clone-ui",
+    demo: "https://broki-clone-ui.vercel.app/",
   },
   {
     title: "E-commerce Store",
