@@ -7,27 +7,27 @@ import ProjectImgTwo from "../../assets/Images/brokihero.png"; // Adjust the pat
 
 const projects = [
   {
-    title: "Event Booking App",
+    title: "Social Networking Platform Like (LinkedIn) UpFound.in",
+    description: "A social networking platform similar to LinkedIn.",
+    image: ProjectImg,
+    github: "https://github.com/javedjd13/Upfound_frontend",
+    demo: "https://upfound.in/",
+  },
+  {
+    title: "Event Booking Platform",
     description:
-      "A web application for booking events and managing registrations.",
+      "A responsive event booking platform built with Tailwind CSS, allowing users to browse and book events seamlessly.",
     image: ProjectImgOne,
     github: "https://github.com/javedjd13/TicketWing_TailwindCss",
     demo: "https://ticket-wing-tailwind-css.vercel.app/",
   },
   {
-    title: "Real Estate  Website",
+    title: "Real Estate Website",
     description:
-      "A responsive Real Estate website built with React and Tailwind CSS.",
+      "A real estate website showcasing properties with search and filter functionality.",
     image: ProjectImgTwo,
     github: "https://github.com/javedjd13/Broki-clone-ui",
     demo: "https://broki-clone-ui.vercel.app/",
-  },
-  {
-    title: "E-commerce Store",
-    description: "An online store with product listings, cart, and checkout.",
-    image: ProjectImg,
-    github: "https://github.com/javedjd13/e-commerce",
-    demo: "https://e-commerce-gilt-two.vercel.app/",
   },
 ];
 
@@ -71,7 +71,8 @@ const Projects = () => {
             transitionSpeed={400}
             className="bg-[#15152b] backdrop-blur-md rounded-2xl border-[#9FA1FF60]  shadow-xl cursor-pointer hover:shadow-[0_0_20px_#9FA1FFaa] transition-shadow duration-500 flex flex-col overflow-hidden"
           >
-             p-8 rounded-2xl border shadow-lg hover:shadow-[0_0_20px_#9FA1FFaa] transition-shadow duration-300 relative z-10
+            p-8 rounded-2xl border shadow-lg hover:shadow-[0_0_20px_#9FA1FFaa]
+            transition-shadow duration-300 relative z-10
             <motion.div
               variants={cardVariants}
               custom={index}
