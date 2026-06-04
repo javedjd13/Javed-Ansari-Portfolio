@@ -1,7 +1,7 @@
 import ReactTypingEffect from "react-typing-effect";
 
 const TypingTitle = () => (
-  <h3 className="text-xl max-sm:my-4 sm:text-2xl md:text-3xl font-semibold mb-4 text-[#8245ec] leading-tight">
+  <h3 className="text-xl max-sm:my-4 sm:text-2xl md:text-3xl font-semibold mb-4 text-[#9FA1FF] leading-tight">
     <span className="text-white">I am a passionate </span>
     <ReactTypingEffect
       text={[
@@ -19,7 +19,7 @@ const TypingTitle = () => (
       typingDelay={500}
       eraseDelay={2000}
       cursorRenderer={(cursor) => (
-        <span className="text-[#8245ec]">{cursor}</span>
+        <span className="text-[#9FA1FF]">{cursor}</span>
       )}
     />
   </h3>

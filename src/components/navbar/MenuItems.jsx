@@ -12,8 +12,8 @@ const MenuItems = ({ activeSection, onClick }) => {
       {menuItems.map((item) => (
         <li
           key={item.id}
-          className={`cursor-pointer hover:text-[#a855f7] ${
-            activeSection === item.id ? "text-[#a855f7]" : ""
+          className={`cursor-pointer hover:text-[#9FA1FF] ${
+            activeSection === item.id ? "text-[#9FA1FF]" : ""
           }`}
         >
           <button className="cursor-pointer" onClick={() => onClick(item.id)}>{item.label}</button>

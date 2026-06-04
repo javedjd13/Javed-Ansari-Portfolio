@@ -48,7 +48,7 @@ const Projects = () => {
       className="py-24 px-8 bg-gradient-to-tr from-[#0f0f28] via-[#1a1a40] to-[#0b0b1e] text-white min-h-screen"
     >
       <motion.h2
-        className="text-5xl font-extrabold text-center mb-20 bg-gradient-to-r from-purple-400 to-pink-600 bg-clip-text text-[#8245ec]"
+        className="text-5xl font-extrabold text-center mb-20 bg-gradient-to-r from-purple-400 to-pink-600 bg-clip-text text-[#9FA1FF]"
         initial={{ opacity: 0, y: -40 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
@@ -63,14 +63,15 @@ const Projects = () => {
             key={project.title}
             glareEnable
             glareMaxOpacity={0.15}
-            glareColor="#a855f7"
+            glareColor="#9FA1FF"
             glarePosition="all"
             scale={1.08}
             tiltMaxAngleX={15}
             tiltMaxAngleY={15}
             transitionSpeed={400}
-            className="bg-[rgba(255,255,255,0.07)] backdrop-blur-md rounded-2xl border border-purple-600/40 shadow-xl cursor-pointer hover:shadow-purple-500/60 transition-shadow duration-500 flex flex-col overflow-hidden"
+            className="bg-[#15152b] backdrop-blur-md rounded-2xl border-[#9FA1FF60]  shadow-xl cursor-pointer hover:shadow-[0_0_20px_#9FA1FFaa] transition-shadow duration-500 flex flex-col overflow-hidden"
           >
+             p-8 rounded-2xl border shadow-lg hover:shadow-[0_0_20px_#9FA1FFaa] transition-shadow duration-300 relative z-10
             <motion.div
               variants={cardVariants}
               custom={index}
@@ -99,7 +100,7 @@ const Projects = () => {
                     href={project.github}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-2 text-purple-400 hover:text-purple-600 transition-colors duration-300"
+                    className="flex items-center gap-2 text-purple-400 hover:text-[#9FA1FF] transition-colors duration-300"
                     aria-label="GitHub Repository"
                   >
                     <FaGithub size={22} />
@@ -111,7 +112,7 @@ const Projects = () => {
                     href={project.demo}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-2 text-pink-400 hover:text-pink-600 transition-colors duration-300"
+                    className="flex items-center gap-2 text-pink-400 hover:text-[#9FA1FF] transition-colors duration-300"
                     aria-label="Live Demo"
                   >
                     <FaExternalLinkAlt size={20} />

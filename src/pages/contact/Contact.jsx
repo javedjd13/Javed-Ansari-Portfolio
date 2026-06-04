@@ -28,7 +28,7 @@ const Contact = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.6 }}
-        className="text-4xl font-bold text-center mb-16 text-[#8245ec]"
+        className="text-4xl font-bold text-center mb-16 text-[#9FA1FF]"
       >
         Contact Me
       </motion.h2>
@@ -38,7 +38,7 @@ const Contact = () => {
         initial={{ opacity: 0, y: 60 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
-        className="backdrop-blur-md bg-white/5 p-8 rounded-xl border border-[#8245ec30] max-w-3xl mx-auto shadow-xl space-y-6"
+        className="backdrop-blur-md bg-white/5 p-8 rounded-xl border border-[#9FA1FF30] max-w-3xl mx-auto shadow-xl space-y-6"
       >
         <div>
           <label className="block mb-2 text-gray-300 font-medium">Name</label>
@@ -48,7 +48,7 @@ const Contact = () => {
             value={formData.name}
             onChange={handleChange}
             required
-            className="w-full px-4 py-3 rounded-lg bg-[#15152b] text-white border border-[#8245ec33] focus:outline-none focus:ring-2 focus:ring-[#8245ec]"
+            className="w-full px-4 py-3 rounded-lg bg-[#15152b] text-white border border-[#9FA1FF33] focus:outline-none focus:ring-2 focus:ring-[#9FA1FF]"
           />
         </div>
 
@@ -60,7 +60,7 @@ const Contact = () => {
             value={formData.email}
             onChange={handleChange}
             required
-            className="w-full px-4 py-3 rounded-lg bg-[#15152b] text-white border border-[#8245ec33] focus:outline-none focus:ring-2 focus:ring-[#8245ec]"
+            className="w-full px-4 py-3 rounded-lg bg-[#15152b] text-white border border-[#9FA1FF33] focus:outline-none focus:ring-2 focus:ring-[#9FA1FF]"
           />
         </div>
 
@@ -74,13 +74,13 @@ const Contact = () => {
             value={formData.message}
             onChange={handleChange}
             required
-            className="w-full px-4 py-3 rounded-lg bg-[#15152b] text-white border border-[#8245ec33] focus:outline-none focus:ring-2 focus:ring-[#8245ec]"
+            className="w-full px-4 py-3 rounded-lg bg-[#15152b] text-white border border-[#9FA1FF33] focus:outline-none focus:ring-2 focus:ring-[#9FA1FF]"
           />
         </div>
 
         <button
           type="submit"
-          className="w-full py-3  hover:bg-[#6b3edf] rounded-lg font-semibold transition duration-300 bg-[#8245ec] bg-contact-btn cursor-pointer"
+          className="w-full py-3  hover:bg-[#9FA1FF] rounded-lg font-semibold transition duration-300 bg-[#9FA1FF] bg-contact-btn cursor-pointer"
         >
           Send Message 🚀
         </button>

@@ -23,7 +23,7 @@ const About = () => {
             Hi, I am
           </h1>
 
-          <h2 className="bg-gradient-to-r from-[#8245ec] to-[#4ee4ec] text-4xl sm:text-5xl md:text-6xl font-extrabold mb-4 text-[#8245ec]">
+          <h2 className="bg-gradient-to-r from-[#9FA1FF] to-[#4ee4ec] text-4xl sm:text-5xl md:text-6xl font-extrabold mb-4 text-[#9FA1FF]">
             {/* Fallback to white color if gradient fails */}
             Javed Ansari
           </h2>
@@ -31,13 +31,22 @@ const About = () => {
           <TypingTitle />
 
           <p className="mt-6 max-sm:mt-4 text-gray-400 text-base sm:text-lg leading-relaxed">
-            I'm a FrontEnd developer with 3 Month of experience building
-            scalable and elegant web applications. I work mostly with the{" "}
-            <strong className="text-[#c084fc]">React.Js</strong> and love
-            crafting beautiful UIs using{" "}
-            <strong className="text-[#4ee4ec]">React</strong>,{" "}
-            <strong className="text-[#8245ec]">Tailwind</strong>, and{" "}
-            <strong className="text-[#c084fc]">Material Ui</strong>.
+            I am a Frontend Developer with 1+ Year of experience building
+            clean, scalable, and user-friendly web applications. I specialize in{" "}
+            <strong className="text-[#9FA1FF]">React.js</strong> and enjoy
+            creating modern, responsive interfaces with{" "}
+            <strong className="text-[#9FA1FF]">React.js</strong>,{" "}
+            <strong className="text-[#9FA1FF]">Next.js</strong>,{" "}
+            <strong className="text-[#9FA1FF]">React Native</strong>,{" "}
+            <strong className="text-[#9FA1FF]">Node.js</strong>,{" "}
+            <strong className="text-[#9FA1FF]">Express.js</strong>,{" "}
+            <strong className="text-[#9FA1FF]">SQL</strong>,{" "}
+            <strong className="text-[#9FA1FF]">PostgreSQL</strong>,{" "}
+            <strong className="text-[#9FA1FF]">Redux Toolkit</strong>,{" "}
+            <strong className="text-[#9FA1FF]">ShadCN UI</strong>,{" "}
+            <strong className="text-[#9FA1FF]">Bootstrap</strong>,{" "}
+            <strong className="text-[#9FA1FF]">Tailwind</strong>, and{" "}
+            <strong className="text-[#9FA1FF]">Material UI</strong>.
           </p>
 
           <div className="mt-8 max-sm:mt-4">
@@ -52,7 +61,7 @@ const About = () => {
           transition={{ duration: 0.6 }}
           className="md:w-1/2 flex justify-center md:justify-end"
         >
-          <div className="relative w-[250px] h-[250px] sm:w-[280px] sm:h-[280px] md:w-[320px] md:h-[320px] rounded-full overflow-hidden border-4 border-[#8245ec40] shadow-[0_0_60px_#8245ec66]">
+          <div className="relative w-[250px] h-[250px] sm:w-[280px] sm:h-[280px] md:w-[320px] md:h-[320px] rounded-full overflow-hidden border-4 border-[#9FA1FF40] shadow-[0_0_60px_#9FA1FF66]">
             <ProfileImage />
             {/* ProfileImage component must render: <img className="w-full h-full object-cover" /> */}
           </div>

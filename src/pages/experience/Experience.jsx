@@ -3,11 +3,18 @@ import Tilt from "react-parallax-tilt";
 
 const experiences = [
   {
-    role: "React Developer Intern",
-    company: "Lucreative Software",
-    period: "July 2024 - September 2024",
+    role: "Frontend Engineer",
+    company: "StepOne Technologies Pvt Ltd",
+    period: "February 2026 - Present",
     description:
-      "Built modern responsive UIs using React, Tailwind CSS, and Bootstrap.",
+      "Developing responsive and scalable web interfaces with React.js, focusing on clean UI implementation, reusable components, performance optimization, and smooth user experiences across modern web applications.",
+  },
+  {
+    role: "Frontend Developer Intern",
+    company: "Upfound Software Pvt Ltd",
+    period: "June 2025 - September 2025",
+    description:
+      "Contributed to frontend development using React.js, implementing responsive designs, optimizing performance, and collaborating with the team to enhance user experience in web applications.",
   },
 ];
 
@@ -28,14 +35,14 @@ const Experience = () => {
   return (
     <section
       id="experience"
-      className="py-20 px-6 sm:px-12 md:px-[7vw] bg-[#0b0b1e] text-[#8245ec] min-h-screen"
+      className="py-20 px-6 sm:px-12 md:px-[7vw] bg-[#0b0b1e] text-[#9FA1FF] min-h-screen"
     >
       <motion.h2
         initial={{ opacity: 0, y: -30 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.7 }}
-        className="text-4xl font-bold text-center mb-16 text-[#8245ec]"
+        className="text-4xl font-bold text-center mb-16 text-[#9FA1FF]"
       >
         Experience
       </motion.h2>
@@ -46,7 +53,7 @@ const Experience = () => {
             key={index}
             glareEnable
             glareMaxOpacity={0.1} // Glare ko bahut subtle banaya
-            glareColor="#8245ec"
+            glareColor="#9FA1FF"
             glarePosition="all"
             tiltMaxAngleX={10} // Thoda halka tilt
             tiltMaxAngleY={10}
@@ -60,12 +67,12 @@ const Experience = () => {
               whileInView="visible"
               viewport={{ once: true }}
               variants={cardVariants}
-              className="bg-[#15152b] p-8 rounded-2xl border border-[#8245ec60] shadow-lg hover:shadow-[0_0_20px_#8245ecaa] transition-shadow duration-300 relative z-10"
+              className="bg-[#15152b] p-8 rounded-2xl border border-[#9FA1FF60] shadow-lg hover:shadow-[0_0_20px_#9FA1FFaa] transition-shadow duration-300 relative z-10"
             >
               <h3 className="text-3xl font-semibold mb-2 text-white">
                 {exp.role}
               </h3>
-              <p className="text-[#c084fc] font-medium text-xl">
+              <p className="text-[#9FA1FF] font-medium text-xl">
                 {exp.company}
               </p>
               <p className="text-sm text-gray-400 italic mb-6">{exp.period}</p>
