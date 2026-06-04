@@ -11,7 +11,7 @@ const experiences = [
   },
   {
     role: "Frontend Developer Intern",
-    company: "Upfound Software Pvt Ltd",
+    company: "Upfound Pvt Ltd",
     period: "June 2025 - September 2025",
     description:
       "Contributed to frontend development using React.js, implementing responsive designs, optimizing performance, and collaborating with the team to enhance user experience in web applications.",
