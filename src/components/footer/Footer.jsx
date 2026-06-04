@@ -14,7 +14,7 @@ const Footer = () => {
   return (
     <footer className="bg-[#0b0b1e] text-white py-12 px-4 text-center">
       {/* Name */}
-      <h2 className="text-2xl font-bold text-[#a855f7] mb-6 tracking-wide">
+      <h2 className="text-2xl font-bold text-[#9FA1FF] mb-6 tracking-wide">
         Javed Ansari
       </h2>
 
@@ -25,7 +25,7 @@ const Footer = () => {
             <a
               key={link}
               href={`#${link.toLowerCase()}`}
-              className="hover:text-[#a855f7] transition"
+              className="hover:text-[#9FA1FF] transition"
             >
               {link}
             </a>
@@ -38,7 +38,7 @@ const Footer = () => {
         <div className="flex gap-6 text-2xl">
           <motion.a
             href="javed13jd@gmail.com"
-            whileHover={{ scale: 1.2, color: "#8245ec" }}
+            whileHover={{ scale: 1.2, color: "#9FA1FF" }}
             transition={{ type: "spring", stiffness: 300 }}
           >
             <FaEnvelope />
@@ -48,7 +48,7 @@ const Footer = () => {
             href="https://github.com/javedjd13"
             target="_blank"
             rel="noreferrer"
-            whileHover={{ scale: 1.2, color: "#8245ec" }}
+            whileHover={{ scale: 1.2, color: "#9FA1FF" }}
             transition={{ type: "spring", stiffness: 300 }}
           >
             <FaGithub />
@@ -58,7 +58,7 @@ const Footer = () => {
             href="https://linkedin.com/in/javed-ansari-83a4a42b5"
             target="_blank"
             rel="noreferrer"
-            whileHover={{ scale: 1.2, color: "#8245ec" }}
+            whileHover={{ scale: 1.2, color: "#9FA1FF" }}
             transition={{ type: "spring", stiffness: 300 }}
           >
             <FaLinkedin />

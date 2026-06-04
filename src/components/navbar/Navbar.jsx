@@ -54,12 +54,12 @@ const Navbar = () => {
     <div className="md:hidden">
       {isOpen ? (
         <FiX
-          className="text-3xl text-[#8245ec] cursor-pointer"
+          className="text-3xl text-[#9FA1FF] cursor-pointer"
           onClick={() => setIsOpen(false)}
         />
       ) : (
         <FiMenu
-          className="text-3xl text-[#8245ec] cursor-pointer"
+          className="text-3xl text-[#9FA1FF] cursor-pointer"
           onClick={() => setIsOpen(true)}
         />
       )}

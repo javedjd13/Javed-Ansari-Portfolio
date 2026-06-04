@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 const SocialIcons = ({ mobile }) => {
   const iconClass = mobile
     ? "text-gray-300 hover:text-white"
-    : "text-gray-300 hover:text-[#8245ec]";
+    : "text-gray-300 hover:text-[#9FA1FF]";
 
   return (
     <div className="flex space-x-4 md:space-x-3">
@@ -11,7 +11,7 @@ const SocialIcons = ({ mobile }) => {
         href="https://github.com/javedjd13"
         target="_blank"
         rel="noreferrer"
-        whileHover={{ scale: 1.2, color: "#8245ec" }}
+        whileHover={{ scale: 1.2, color: "#9FA1FF" }}
         transition={{ type: "spring", stiffness: 300 }}
       >
         <FaGithub size={24} />
@@ -20,7 +20,7 @@ const SocialIcons = ({ mobile }) => {
         href="https://linkedin.com/in/javed-ansari-83a4a42b5"
         target="_blank"
         rel="noreferrer"
-        whileHover={{ scale: 1.2, color: "#8245ec" }}
+        whileHover={{ scale: 1.2, color: "#9FA1FF" }}
         transition={{ type: "spring", stiffness: 300 }}
       >
         <FaLinkedin size={24} />
